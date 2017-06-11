@@ -24,24 +24,24 @@
     },
 
     "paymentProcessing": {
-        "enabled": false,
+        "enabled": true,
         "paymentMode": "prop",
         "_comment_paymentMode":"prop, pplnt",
-        "paymentInterval": 20,
+        "paymentInterval": 600,
         "minimumPayment": 0.1,
         "maxBlocksPerPayment": 3,
         "daemon": {
             "host": "127.0.0.1",
             "port": 8232,
-            "user": "testuser",
-            "password": "testpass"
+            "user": "alotoffluffyhair",
+            "password": "fredandme123"
         }
     },
 
     "ports": {
         "7": {
             "tls":false,
-            "diff": 0.05,
+            "diff": 0.50,
             "varDiff": {
                 "minDiff": 0.04,
                 "maxDiff": 16,
@@ -56,8 +56,8 @@
         {
             "host": "127.0.0.1",
             "port": 18231,
-            "user": "rpcuser",
-            "password": "rpcpassword"
+            "user": "alotoffluffyhair",
+            "password": "fredandme123"
         }
     ],
 
