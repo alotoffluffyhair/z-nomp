@@ -39,7 +39,7 @@
     },
 
     "ports": {
-        "7": {
+        "7750": {
             "tls":false,
             "diff": 0.50,
             "varDiff": {
@@ -55,7 +55,7 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 18231,
+            "port": 8232,
             "user": "alotoffluffyhair",
             "password": "fredandme123"
         }
